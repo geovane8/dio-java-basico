@@ -24,5 +24,15 @@ public class Operadores {
 
         String nomeCompleto = "GEOVANE" + "NASCIMENTO";
         System.out.println(nomeCompleto);
+
+
+
+        //--------------------//---------------------------
+
+        //conceito de icrementação e decrementação.
+        int numero1 = 5;
+        int numero2 = 10;
+        System.out.println(++ numero1); //incremetou + 1
+        System.out.println(-- numero2); // decrementou - 1
     }
 }
