@@ -53,5 +53,19 @@ public class Operadores {
 
         int resultado2 = a==b ? 1 : 0; // ? para verdeiro e : para falso com inteiros
         System.out.println(resultado2);
+
+        //conceito de comparação
+        int num1 = 3;
+        int num2 = 2;
+
+        boolean simNao = num1 == num2; // ja acontece uma comparação 
+        System.out.println("Numero um é igual a Numero dois? " + simNao); //resultado (FALSE)
+
+        simNao = num1 != num2; // (!= ) usando para inidicar diferença 
+        System.out.println("O Numero um é diferente do Numro dois? " + simNao);//resultado verdeiro
+
+       //comparando igualdade com strings (TEXTOS) 
+
+       
     }
 }
