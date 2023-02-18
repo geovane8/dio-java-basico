@@ -74,5 +74,20 @@ public class Operadores {
         caso contrario teriamos um resuldado negativo mesmo sendo os nomes iguais */
         System.out.println(nome1.equals(nome2));
 
+        //conceitos de operadores logicos 
+        boolean condicao1 = true;
+        boolean condicao2 = true;
+
+        if (condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+        }
+
+        else if (condicao1 || condicao2){
+            System.out.println("Um das duas condições é verdadeira");
+        }
+        System.out.println("FIM");
+
+
+
     }
 }
