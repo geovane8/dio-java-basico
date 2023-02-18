@@ -1,3 +1,5 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 public class Operadores {
     
     public static void main (String[] args){
@@ -65,7 +67,12 @@ public class Operadores {
         System.out.println("O Numero um é diferente do Numro dois? " + simNao);//resultado verdeiro
 
        //comparando igualdade com strings (TEXTOS) 
+        String nome1 = "GEOVANE";
+        String nome2 = "GEOVANE";
+        //String nome2 = new String("GEOVANE");
+        /*comparando com um novo objeto criado mesmo sendo igual o ideal é usar o oeprador (.EQUALS)
+        caso contrario teriamos um resuldado negativo mesmo sendo os nomes iguais */
+        System.out.println(nome1.equals(nome2));
 
-       
     }
 }
