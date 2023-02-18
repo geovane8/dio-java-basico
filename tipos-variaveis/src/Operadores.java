@@ -34,5 +34,21 @@ public class Operadores {
         int numero2 = 10;
         System.out.println(++ numero1); //incremetou + 1
         System.out.println(-- numero2); // decrementou - 1
+
+        // conceito de negação de variavel tipo booelan
+        boolean variavel = true;
+
+        variavel = !variavel; // atribuindo negação da primiera declaração
+
+        System.out.println(variavel);
+
+        //Conceito de uso de operador ternario
+        int a, b;
+        
+        a = 6;
+        b = 6;
+
+        String resultado = a==b ? "verdaeiro" : "falso"; // ? para verdeiro e : para falso
+        System.out.println(resultado);
     }
 }
