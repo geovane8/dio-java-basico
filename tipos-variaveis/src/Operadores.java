@@ -48,7 +48,10 @@ public class Operadores {
         a = 6;
         b = 6;
 
-        String resultado = a==b ? "verdaeiro" : "falso"; // ? para verdeiro e : para falso
-        System.out.println(resultado);
+        String resultado1 = a==b ? "verdaeiro" : "falso"; // ? para verdeiro e : para falso
+        System.out.println(resultado1);
+
+        int resultado2 = a==b ? 1 : 0; // ? para verdeiro e : para falso com inteiros
+        System.out.println(resultado2);
     }
 }
