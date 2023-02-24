@@ -1,4 +1,3 @@
-package EXERCICIOS;
 import java.util.Scanner;
 
 /* Faça um programa que leia o conjunto de 2 valores,
@@ -6,8 +5,6 @@ import java.util.Scanner;
  * representando a sua idade. [pare o prorgrama inserindo o valor 0 no campo nome]
 */
 
-package EXERCICIOS;
-import java.util.Scanner;
 
 public class Ex1_NomeEIdade {
     
