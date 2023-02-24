@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 /* Faça um programa que leia o conjunto de 2 valores,
