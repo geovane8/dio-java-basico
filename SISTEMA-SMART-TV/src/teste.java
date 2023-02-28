@@ -1,5 +1,9 @@
-public static void main(String[] args) throws Exception {
-    int numero1 = 1;
-    String numero2 = "2";
-    System.out.println(numero1+numero2); 
-  }
+public class Ex1_OrdemInversa {
+    
+  public static void main(String[] args) {
+
+int num = 5, count = 1;
+        do {
+            num += count;
+            System.out.println(num);
+        } while (count <= 3);
